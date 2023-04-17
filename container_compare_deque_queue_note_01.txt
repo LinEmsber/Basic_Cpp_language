@@ -1,0 +1,13 @@
+n C++, both deque and queue are container adapters that provide a way to store and manipulate collections of elements.
+
+deque stands for "double-ended queue," and it allows for efficient insertion and deletion of elements at both the beginning and the end of the sequence. It can be thought of as a dynamic array with optimized insertion and deletion at both ends. deque provides random access to its elements, which makes it a versatile container.
+
+On the other hand, queue is a container adapter that provides a queue-like data structure, where elements are inserted at the back and removed from the front. It follows the First-In-First-Out (FIFO) principle. queue does not provide random access to its elements, which makes it less versatile than deque.
+
+In terms of functionality, deque is more powerful and flexible than queue. However, if you only need a simple queue-like container, queue is a better choice, since it provides a clearer and more intuitive interface.
+
+Here's a summary of the key differences between deque and queue:
+
+deque provides efficient insertion and deletion at both ends, while queue only provides insertion at the back and removal from the front.
+deque provides random access to its elements, while queue does not.
+deque is a more general-purpose container, while queue is designed specifically for implementing a queue data structure.
