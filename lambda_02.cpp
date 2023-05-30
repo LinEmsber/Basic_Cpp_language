@@ -3,8 +3,6 @@
 
 class Calculator {
 	public:
-		Calculator() {}
-
 		void setOperation(std::function<int(int, int)> operation) {
 			m_operation = operation;
 		}
